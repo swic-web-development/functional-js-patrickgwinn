@@ -5,3 +5,5 @@ const greet = function() {
 const greet = () => {
     return 'Hello World!';
 }
+
+const greet = () => 'Hello World!';

@@ -1,3 +1,3 @@
-var x = 3;
-
-console.log(x);
+const greet = function() {
+    return 'Hello World!';
+};

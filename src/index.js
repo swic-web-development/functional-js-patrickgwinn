@@ -7,3 +7,8 @@ const greet = () => {
 }
 
 const greet = () => 'Hello World!';
+
+function calculateOrderCost(order) {
+    return order.quantity * order.priceEa;
+}
+const calculateOrderCost = order => order.quantity * order.priceEa;

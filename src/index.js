@@ -29,3 +29,14 @@ function triple(num) {
 doSomethingWithNumber(10, divideByTwo);
 doSomethingWithNumber(10, multiplyByTwo);
 doSomethingWithNumber(10, triple);
+
+const numbers = [1, 2, 3, 4, 5]
+const doubledNumbers = []
+
+for (let i = 0; i < numbers.length; i++) {
+    doubledNumbers.push(numbers[i] * 2);
+}
+
+const doubledNumbers = numbers.map(number => number * 2);
+
+console.log(doubledNumbers);

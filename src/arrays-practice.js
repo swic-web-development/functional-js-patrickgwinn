@@ -31,3 +31,5 @@ console.log(allOddNumbers)
 const allPlayersHaveMoreFragsThanDeaths = players.every((player) => player.frags > player.deaths)
 console.log(allPlayersHaveMoreFragsThanDeaths)
 
+const sortedPlayers = players.sort((playerA, playerB) => playerA.frags - playerB.frags)
+console.log(sortedPlayers)

@@ -23,3 +23,11 @@ console.log(firstPlayerWithMoreFragsThanDeaths)
 
 const hasFrags = players.some((player) => player.frags)
 console.log(hasFrags)
+
+const numbers = [1, 2, 3, 4, 5]
+const allOddNumbers = numbers.every((number) => number % 2 !== 0)
+console.log(allOddNumbers)
+
+const allPlayersHaveMoreFragsThanDeaths = players.every((player) => player.frags > player.deaths)
+console.log(allPlayersHaveMoreFragsThanDeaths)
+

@@ -33,3 +33,13 @@ console.log(allPlayersHaveMoreFragsThanDeaths)
 
 const sortedPlayers = players.sort((playerA, playerB) => playerA.frags - playerB.frags)
 console.log(sortedPlayers)
+
+const backpackFullOfAmmo = [
+    { name: 'Bullets', quantity: 10, priceEa: 0.5 },
+    { name: 'shotgun Shells', quantity: 4, priceEa: 0.5 },
+    { name: 'Rockets', quantity: 1, priceEa: 0.5 },
+    { name: 'energy cell units', quantity: 20, priceEa: 0.2 },
+]
+
+const totalAmmoCost = backpackFullOfAmmo.reduce((total, ammo) => total + ammo.quantity * ammo.priceEa, 0)
+console.log(totalAmmoCost)

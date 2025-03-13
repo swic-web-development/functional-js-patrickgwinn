@@ -75,3 +75,6 @@ const monsters = [
 
 const namesOfMonsters = monsters.map((monster) => monster.name)
 console.log(namesOfMonsters)
+
+const monstersWithHealthOver150 = monsters.filter((monster) => monster.health > 150)
+console.log(monstersWithHealthOver150)
